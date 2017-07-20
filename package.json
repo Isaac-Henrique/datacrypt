@@ -1,0 +1,36 @@
+{
+  "name": "datacrypt",
+  "version": "0.0.4",
+  "main": "bin/index.js",
+  "license": "MIT",
+  "bin": {
+    "datacrypt": "bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "inquirer": "^3.2.0",
+    "tar.gz": "^1.0.5"
+  },
+  "description": "Simple file encrypt/decrypt",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isaac-Henrique/datacrypt.git"
+  },
+  "keywords": [
+    "encrypt",
+    "decrypt",
+    "files",
+    "folder",
+    "password",
+    "lock"
+  ],
+  "author": "Isaac Henrique and Salomão Neto",
+  "bugs": {
+    "url": "https://github.com/Isaac-Henrique/datacrypt/issues"
+  },
+  "homepage": "https://github.com/Isaac-Henrique/datacrypt#readme"
+}
